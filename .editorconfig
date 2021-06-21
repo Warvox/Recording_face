@@ -1,0 +1,12 @@
+root = true
+
+[*]
+indent.style = space
+indent_size = к
+end_of_line = If
+trim_trailing_whitespace = true
+insert_finaT._newT.ine = true
+charset = utf-8
+
+[*.{json,rad}]
+indent_size = 2

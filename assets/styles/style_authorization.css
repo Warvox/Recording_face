@@ -1,0 +1,90 @@
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  color: black;
+  background-color: #f7f7f7;
+}
+
+#wrapper {
+}
+
+#logo {
+  margin-top: 0.875rem;
+  margin-left: -13px;
+}
+
+#body_container {
+  width: 100%;
+  height: 80vh;
+}
+
+#window_autorization {
+  position: relative;
+  left: calc(50% - 260px);
+  top: calc(42% - 210px);
+  width: 520px;
+  height: 450px;
+  background-color: #dadada;
+  border-radius: 30px;
+}
+
+.input_data_section {
+  display: grid;
+  justify-items: center;
+  padding: 11% 0;
+}
+
+#htext {
+  display: flex;
+  justify-content: center;
+  font-size: 2.063rem;
+  color: #ffffff;
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+  margin: 0;
+  padding: 30px 0;
+}
+
+.input_data {
+  display: flex;
+  justify-content: center;
+  color: #ccc;
+  border: 0;
+  padding: 0;
+  margin-bottom: 1rem;
+}
+
+#login,
+#password {
+  width: 330px;
+  height: 30px;
+  padding: 0 10px;
+}
+
+#btn_open {
+  width: 40%;
+  border: 0;
+  font-size: 1.4rem;
+  color: #ffffff;
+  background: linear-gradient(180deg, #c02626 0%, #881c1c 100%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  margin: 0.9rem;
+  padding: 13px;
+  cursor: pointer;
+  transition: color 1s;
+}
+
+#btn_open:hover {
+  background: #881c1c;
+}
+
+#annotation {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #ffffff;
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+}

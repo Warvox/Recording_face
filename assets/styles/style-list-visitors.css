@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  color: #f7f7f7;
+  background-color: #f7f7f7;
+}
+
+*,
+* :before,
+* :after {
+  box-sizing: border-box;
+}
+
+#body_page_list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-content: space-evenly;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#personal_card_1,
+#personal_card_2,
+#personal_card_3 {
+  display: flex;
+  margin-top: 25px;
+  width: 49%;
+  height: 101px;
+  background-color: #bbb;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
+  border-radius: 22px;
+}
+
+.avatar_person {
+  display: block;
+  width: 77px;
+  height: 77px;
+  margin: auto 10px;
+  border-radius: 50%;
+}
+
+.name_person_1 {
+  margin: 0;
+  padding-top: 11.62px;
+  font-size: 14px;
+}
+
+.gender {
+  margin: 0;
+  padding-top: 7px;
+  font-size: 12px;
+}
+
+.wrapper_times {
+  margin-top: 7px;
+  display: flex;
+  align-items: center;
+}
+
+.times_in {
+  margin: 0;
+  font-size: 12px;
+}
+
+.ellipse_in_1 {
+  margin-right: 5px;
+  width: 9px;
+  height: 9px;
+  background-color: #98f278;
+  border-radius: 50%;
+}
