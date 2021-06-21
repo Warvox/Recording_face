@@ -1,0 +1,25 @@
+{
+  "name": "recording_face",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Warvox/Recording_face.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Warvox/Recording_face/issues"
+  },
+  "homepage": "https://github.com/Warvox/Recording_face#readme",
+  "dependencies": {
+    "ffmpeg": "^0.0.4",
+    "jsmpeg": "^1.0.0",
+    "node-onvif": "^0.1.7"
+  }
+}
