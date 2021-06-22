@@ -14,13 +14,14 @@ img.logo {
   border-radius: 50%;
 }
 
-.FIO {
+#FIO {
+  width: 339px;
   flex: 1;
   font-size: 24px;
   margin: 0;
 }
 
-.post_person {
+#post_person {
   margin: 0;
   padding-top: 7px;
   font-size: 18px;
@@ -42,8 +43,12 @@ img.logo {
   align-items: center;
 }
 
-.times_in {
-  margin-top: 0;
+#times_in_1,
+#times_in_2,
+#times_in_3,
+#times_in_4,
+#times_in_5 {
+margin-top: 0;
   margin-bottom: 0;
   margin-right: 7px;
 }
@@ -60,7 +65,11 @@ img.logo {
   border-radius: 50%;
 }
 
-.times_out {
+#times_out_1,
+#times_out_2,
+#times_out_3,
+#times_out_4,
+#times_out_5 {
   margin-top: 0;
   margin-bottom: 0;
   margin-right: 7px;
