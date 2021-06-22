@@ -49,3 +49,7 @@ if (navigator.webkitGetUserMedia != null) {
     }
   );
 }
+
+//Количество посещений
+
+document.querySelector(".pageview").innerHTML = "0";
